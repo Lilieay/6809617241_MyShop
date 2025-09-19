@@ -7,7 +7,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#stickyheading {
+.stickyheading {
     background-color: burlywood;
     padding: 5px 20px;
     position: sticky;
@@ -21,7 +21,7 @@ body {
 
 }
 
-#stickyheading button {
+.stickyheading button {
     border: none;
     font-size: 20px;
     cursor: pointer;
@@ -34,48 +34,29 @@ body {
 
 }
 
-#buttonhome:hover {
-    background-color: white;
-    color: tan;
-
-}
-
-#buttonabout:hover {
-    background-color: white;
-    color: tan;
-
-}
-
-#buttonshop:hover {
+.stickyheading button:hover {
     background-color: white;
     color: tan;
 
 }
 
 
-
-#cart:hover {
-    background-color: white;
-    color: tan;
-
-}
-
-#stickyheading nav ul {
+.stickyheading nav ul {
     list-style: none;
     display: flex;
 
 }
 
-#stickyheading h1 {
+.stickyheading h1 {
     color: aliceblue;
     font-size: 40px;
 }
 
-#stickyheading nav li {
+.stickyheading nav li {
     padding-left: 30px;
 }
 
-#stickyheading nav a {
+.stickyheading nav a {
     text-decoration: none;
     color: white;
 }
